@@ -10,6 +10,5 @@ Esta obra está licenciado com uma Licença [Creative Commons Atribuição-Compa
 
 ## Modelos ##
 
-### Avaliação de Artigo Científico ###
-
-Roteiro para análise e avaliação de um artigo científico. ([Modelo](AvaliacaoDeArtigo.tex))
+1. [Avaliação de Artigo Científico](AvaliacaoDeArtigo.tex)
+1. [Avaliação de Apresentação](AvaliacaoDeApresentacao.tex)
