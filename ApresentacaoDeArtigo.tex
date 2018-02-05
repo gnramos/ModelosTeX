@@ -1,0 +1,159 @@
+%       @file: ApresentacaoDeArtigo.tex
+%     @author: Guilherme N. Ramos (gnramos@unb.br)
+%
+% Modelo para apresentação de artigos científicos. Exemplo de estrutura lógica.
+%
+% Este documento usa a classe UnBeamer, disponível em:
+% https://github.com/UnB-CIC/UnBeamer
+\documentclass{UnBeamer}%
+
+%% ------------ Configurações ------------ %%
+\usepackage[brazilian]{babel}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+
+%% ------------ Autor, Título, etc. ------------ %%
+\title[Resumo]{Apresentação de Artigo Científico}%
+\author[gnramos]{Guilherme N. Ramos\\%
+                 \texttt{gnramos@unb.br}}%
+\institute[PPCA/CIC]{Departamento de Ciência da Computação\\%
+                     Universidade de Brasília}%
+\date[2018]{2018/01/01}%
+
+%% ------------ Documento ------------ %%
+\begin{document}%
+    % Informações básicas do trabalho/apresentador(a).
+    \frame{\titlepage}%
+
+    % Resumo da apresentação.
+    \begin{frame}%
+        \frametitle{Resumo}%
+        \tableofcontents%
+    \end{frame}%
+
+    % Resumo do trabalho.
+    \begin{frame}%
+        \frametitle{Pontos-chave}%
+        % Descrição dos pontos chaves, conforme apresentados pelos autores no
+        % artigo.
+
+        \begin{description}
+            \item[Proposta:] o que é proposto?\vfill% (ex: algoritmo para classificação supervisionada de dados desbalanceados)
+            \item[Mérito:] por que a proposta é relevante? Por que ela deveria ser escolhida como solução de algum problema ao invés de outra solução já existente?\vfill% (ex: usa abordagem XYZ na supervisão que a torna mais acurada, aplicação em uma massa de dados inédita)
+            \item[Validação:] como verificou-se a utilidade da proposta (que ela realmente resolve o problema a que se aplica) e seu mérito (que realmente se destaca em algum aspecto)?\vfill% (ex: validação cruzada e comparação com o estado da arte: algoritmo ABC))
+            \item[Perspectivas:] o que pode ser melhorado?% (ex: melhorias de eficiência e aplicação em domínio diferente)
+        \end{description}%
+    \end{frame}%
+
+    \section{Periódico}
+    % Informações básicas e interessantes (se houver).
+    \begin{frame}%
+        Informações sobre o periódico.%
+        \begin{itemize}%
+            \item Editora%
+            \item Edições (e periodicidade)%
+            \item Fator de Impacto%
+            \item Membros do corpo editorial de destaque%
+            \item Outros trabalhos relevantes publicados%
+            \item etc.%
+        \end{itemize}%
+    \end{frame}%
+
+    \section{Artigo}%
+    \begin{frame}%
+        Detalhes do artigo:
+        \begin{itemize}
+            \item Dados da publicação
+            \begin{itemize}%
+                \item título%
+                \item edição%
+                \item páginas%
+                \item DOI%
+                \item etc.%
+            \end{itemize}
+            \item Número de citações
+            \item etc.
+        \end{itemize}
+    \end{frame}%
+
+    \subsection{Autores}%
+    \begin{frame}%
+        Informações sobre cada autor:
+        \begin{itemize}
+            \item Nome completo
+            % \item \href{https://pt.wikipedia.org/wiki/%C3%8Dndice_h}{Índice H}%
+            \item Página pessoal
+            \item Instituição
+            \item Trabalhos correlatos interessantes
+            \item etc.
+        \end{itemize}
+    \end{frame}%
+
+    \subsection{Abstract / Palavras chave}%
+    \begin{frame}%
+        Informações sobre o abstract e destaque das palavras-chave.
+        % A leitura de um artigo é trabalhosa, a leitura do abstract e palavras-chave
+        % salvam tempo e facilitam a pesquisa. A iedia aqui é, além de apresentar
+        % os detalhes, indicar a sua motivação para ler o artigo a partir destas
+        % informações.
+    \end{frame}%
+
+    % Seções do artigo.
+    \subsection{Seção 1}%
+    \begin{frame}%
+        Informações apresentadas na primeira seção do artigo (geralmente \emph{Introdução}).%
+        \\\vfill%
+        Apresente o conteúdo, buscando esclarecer pontos mais complexos e complementar as informações quando necessário (por exemplo, indicando os trabalhos que serviram de referência ou acrescentando informações).
+    \end{frame}%
+
+    \subsection{Seção 2}%
+    \begin{frame}%
+        Informações apresentadas na seção (geralmente \emph{Trabalhos Correlatos/Estado da Arte}).%
+        \\\vfill%
+        Apresente o conteúdo, buscando esclarecer pontos mais complexos e complementar as informações quando necessário (por exemplo, indicando os trabalhos que serviram de referência ou acrescentando informações).
+    \end{frame}%
+
+    \subsection{Seção 3}%
+    \begin{frame}%
+        Informações apresentadas na seção (geralmente \emph{Proposta}).%
+        \\\vfill%
+        Apresente o conteúdo, buscando esclarecer pontos mais complexos e complementar as informações quando necessário (por exemplo, indicando os trabalhos que serviram de referência ou acrescentando informações).
+    \end{frame}%
+
+    \subsection{Seção 4}%
+    \begin{frame}%
+        Informações apresentadas na seção (geralmente \emph{Experimentos}).%
+        \\\vfill%
+        Apresente o conteúdo, buscando esclarecer pontos mais complexos e complementar as informações quando necessário (por exemplo, indicando os trabalhos que serviram de referência ou acrescentando informações).
+    \end{frame}%
+
+    \subsection{Seção 5}%
+    \begin{frame}%
+        Informações apresentadas na seção (geralmente \emph{Conclusões}).%
+        \\\vfill%
+        Apresente o conteúdo, buscando esclarecer pontos mais complexos e complementar as informações quando necessário (por exemplo, indicando os trabalhos que serviram de referência ou acrescentando informações).
+    \end{frame}%
+
+    % Cada seção deve ser apresentada e analisada.
+    \subsection{$\cdots$}%
+
+    \subsection{Referências}%
+    \begin{frame}%
+        Informações sobre as referências utilizadas:
+        \begin{itemize}
+            \item Quantidade
+            \item Destaques
+            \item etc.
+        \end{itemize}
+    \end{frame}%
+
+    \section{Análise Crítica}%
+    \begin{frame}%
+        Forneça sua opinião pessoal sobre o artigo e uma análise crítica dele.
+        \\\vfill%
+        Indique os pontos fortes ou fracos que houver, sugerindo melhorias quando possível.
+        \\\vfill%
+        Por exemplo, trechos ou métodos que não são claros, pontos que deveriam
+        ser mais (ou menos) detalhados e tópicos que deveriam ter sido abordados mas não foram (e como deveriam ter sido).
+    \end{frame}%
+\end{document}%
