@@ -1,6 +1,6 @@
 # Modelos TeX #
 
-Conjuntos de modelos de documentos.
+Conjuntos de modelos de documentos. Utilizam as classes [UnBExam](https://github.com/UnB-CIC/UnBExam) e [UnBeamer](https://github.com/UnB-CIC/UnBeamer).
 
 ## Licença ##
 
