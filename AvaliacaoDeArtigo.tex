@@ -30,171 +30,171 @@
 % discutidos em sala de aula.                                               %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\begin{description}%
-		\item[Título:] % [<o>] Insira aqui o título do artigo sendo avaliado.
+    \begin{description}%
+        \item[Título:] % [<o>] Insira aqui o título do artigo sendo avaliado.
 
-		\item[Autor(es):] % [<o>] Insira aqui a lista de autores do artigo sendo av
-		                  %       aliado.
+        \item[Autor(es):] % [<o>] Insira aqui a lista de autores do artigo sendo
+                          %       avaliado.
 
-		\item[Revisor:] % [<o>] Insira aqui sua matrícula e nome.
+        \item[Revisor:] % [<o>] Insira aqui sua matrícula e nome.
 
-		\item[Avaliação:] % [<o>] Escolha apenas uma das opções abaixo:
-		Ruim | Médio | Bom | Excelente%
-	\end{description}%
+        \item[Avaliação:] % [<o>] Escolha apenas uma das opções abaixo:
+        Excelente | Bom | Médio | Ruim | Péssimo
+    \end{description}%
 
-	\section{Interesse do Leitor}%
-	\begin{enumerate}
-		\item O artigo é interessante no contexto da disciplina?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Talvez | Não
+    \section{Pontos-chave}%
+    % Descreva os pontos chaves, conforme apresentados pelos autores no artigo.
+    % Bons artigos deixam estes pontos bem claros ao longo do texto.
 
-		\item Que tipo de mudança haverá neste interesse nos próximos 5 anos?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Crescerá | Pouca mudança | Diminuirá
+    \begin{description}
+        \item[Proposta:]% [<o>] o que é proposto? (ex: algoritmo para
+                        %       classificação supervisionada de dados
+                        %       desbalanceados)
 
-		\item Considerando o contexto específico do artigo, qual a importância
-		do tópico abordado?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Muita | Média | Pouca
-	\end{enumerate}%
+        \item[Mérito:]% [<o>] por que a proposta é relevante? Por que ela
+                      %       deveria ser escolhida como solução de algum
+                      %       problema ao invés de outra solução já existente?
+                      %       (ex: usa abordagem XYZ na supervisão que a torna
+                      %       mais acurada, aplicação em uma massa de dados
+                      %       inédita)
 
-	\section{Conteúdo}%
-	\begin{enumerate}
-		\item O artigo é tecnicamente bem feito?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Talvez | Parcialmente | Não
+        \item[Validação:]% [<o>] como verificar a utilidade da proposta (que ela
+                         %       realmente resolve o problema a que se aplica) e
+                         %       seu mérito (que realmente se destaca em algum
+                         %       aspecto)? (ex: validação cruzada e comparação
+                         %       com o estado da arte: algoritmo ABC)
 
-		\item Qual o nível de conhecimento técnico apresentado?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Especialista | Avançado | Superficial
+        \item[Perspectivas:]% [<o>] o que pode ser melhorado? (ex: melhorias de
+                            %       eficiência e aplicação em domínio diferente)
+    \end{description}%
 
-		\item O artigo apresenta uma contribuição tangível ao \emph{estado da
-		arte} da área?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Um pouco | Não
+    \section{Resumo}%
+    % [<o>] Escreva um resumo (1 a 2 páginas) do artigo.
+    % A proposta é apresentar uma versão concisa dos conceitos mais relevantes
+    % apresentados por seção, geralmente reduzindo cada uma a um parágrafo. O
+    % resumo deve ser um texto fluido (e não uma lista de tópicos abordados).
+    % Idealmente, o acesso a este resumo possibilita uma compreensão completa do
+    % trabalho sem que seja necessário relê-lo.
 
-		\item As referências apresentadas são adequadas?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Sim, mas veja a Seção~\ref{} | Não
+    \section{Análise Crítica}%
+    % [<o>] Escreva perguntas/ideias/comentários que você tenha sobre o artigo.
+    % Por exemplo, trechos ou métodos que não são claros, pontos que deveriam
+    % ser mais (ou menos) detalhados e tópicos que deveriam ter sido abordados
+    % mas não foram (e como deveriam ter sido)
 
-		\item Qual a probabilidade do conteúdo apresentado ser utilizado por
-		outros pesquisadores?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Alta | Média | Baixa
-	\end{enumerate}%
+    % [<o>] Identifique pelo menos 3 pontos fortes e 3 pontos fracos do artigo.
+    %
+    % [<o>] Forneça o embasamento para sua avaliação do artigo.
 
-	% Considere esta seção apenas se houver análise experimental (ou simulações)
-	\subsection{Experimentos}%
-	\begin{enumerate}
-		\item Os experimentos são claramente definidos?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+    \section{Interesse do Leitor}%
+    \begin{enumerate}
+        \item O artigo é interessante no contexto da disciplina?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Talvez | Não
 
-		\item O procedimento adotado é descrito com detalhes suficientes para
-		ser reproduzido?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não%
-		\hfill\begin{minipage}{.29\textwidth}%
+        \item Que tipo de mudança haverá neste interesse nos próximos 5 anos?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Crescerá | Pouca mudança | Diminuirá
 
-		% [<o>] Escolha apenas uma das opções abaixo:
-		\hfill código disponível: Sim | Não%
+        \item Considerando o contexto específico do artigo, qual a importância
+        do tópico abordado?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Muita | Média | Pouca
+    \end{enumerate}%
 
-		% [<o>] Escolha apenas uma das opções abaixo:
-		\hfill dados disponíveis: Sim | Não%
-		\end{minipage}%
+    \section{Conteúdo}%
+    \begin{enumerate}
+        \item O artigo é tecnicamente bem feito?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Talvez | Parcialmente | Não
 
-		\item Os resultados são comparados ao \emph{estado da arte}?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+        \item Qual o nível de conhecimento técnico apresentado?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Especialista | Avançado | Superficial
 
-		\item As métricas utilizadas são válidas?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+        \item O artigo apresenta uma contribuição tangível ao \emph{estado da
+        arte} da área?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Um pouco | Não
 
-		\item As conclusões são válidas?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+        \item As referências apresentadas são adequadas?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Sim, mas veja a Seção~\ref{} | Não
 
-		\item Os resultados são convincentes?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
-	\end{enumerate}%
+        \item Qual a probabilidade do conteúdo apresentado ser utilizado por
+        outros pesquisadores?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Alta | Média | Baixa
+    \end{enumerate}%
 
-	\subsection{Apresentação}%
-	\begin{enumerate}
-		\item O \emph{abstract} é um resumo suficiente e adequado do conteúdo
-		apresentado?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+    % Considere esta seção apenas se houver análise experimental (ou simulações)
+    \subsection{Experimentos}%
+    \begin{enumerate}
+        \item Os experimentos são claramente definidos?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-		\item A introdução apresenta claramente o contexto e a motivação para
-		alguém que não seja especialista?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+        \item O procedimento adotado é descrito com detalhes suficientes para
+        ser reproduzido?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não%
+        \hfill\begin{minipage}{.29\textwidth}%
 
-		\item Como é a organização do artigo?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Satisfatória | Pode melhorar | Ruim
+        % [<o>] Escolha apenas uma das opções abaixo:
+        \hfill código disponível: Sim | Não%
 
-		\item Considerando o conteúdo técnico, o tamanho do artigo é adequado?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Muito longo | Muito curto
+        % [<o>] Escolha apenas uma das opções abaixo:
+        \hfill dados disponíveis: Sim | Não%
+        \end{minipage}%
 
-		\item A escrita é satisfatória?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Sim | Não
+        \item Os resultados são comparados ao \emph{estado da arte}?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-		\item Qual a legibilidade do artigo pra um não especialista?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Fácil | Autocontido | Precisa de esclarecimentos | Ilegível
+        \item As métricas utilizadas são válidas?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-		\item Desconsiderando o aspecto técnico, qual a qualidade do conteúdo
-		apresentado?\\%
-		% [<o>] Escolha apenas uma das opções abaixo:
-		Excelente | Boa | Média | Ruim
-	\end{enumerate}%
+        \item As conclusões são válidas?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-	\section{Resumo}%
-	% [<o>] Escreva um resumo (1 a 2 páginas) do artigo.
-	% A proposta é apresentar uma versão concisa dos conceitos mais relevantes
-	% apresentados por seção, geralmente reduzindo cada uma a um parágrafo. O
-	% resumo deve ser um texto fluido (e não uma lista de tópicos abordados).
-	% Idealmente, o acesso a este resumo possibilita uma compreensão completa do
-	% trabalho sem que seja necessário relê-lo.
+        \item Os resultados são convincentes?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
+    \end{enumerate}%
 
-	\section{Pontos-chave}%
-	% Descreva os pontos chaves, conforme apresentados pelos autores no artigo.
-	% Bons artigos deixam estes pontos bem claros ao longo do texto.
+    \subsection{Apresentação}%
+    \begin{enumerate}
+        \item O \emph{abstract} é um resumo suficiente e adequado do conteúdo
+        apresentado?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-	\begin{description}
-		\item[Proposta:]% [<o>] o que é proposto? (ex: algoritmo para
-		                %       classificação supervisionada de dados
-		                %       desbalanceados)
+        \item A introdução apresenta claramente o contexto e a motivação para
+        alguém que não seja especialista?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-		\item[Mérito:]% [<o>] por que a proposta é relevante? Por que ela
-		              %       deveria ser escolhida como solução de algum
-		              %       problema ao invés de outra solução já existente?
-		              %       (ex: usa abordagem XYZ na supervisão que a torna
-		              %       mais acurada, aplicação em uma massa de dados
-		              %       inédita)
+        \item Como é a organização do artigo?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Satisfatória | Pode melhorar | Ruim
 
-		\item[Validação:]% [<o>] como verificar a utilidade da proposta (que ela
-		                 %       realmente resolve o problema a que se aplica) e
-		                 %       seu mérito (que realmente se destaca em algum
-		                 %       aspecto)? (ex: validação cruzada e comparação
-		                 %       com o estado da arte: algoritmo ABC)
+        \item Considerando o conteúdo técnico, o tamanho do artigo é adequado?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Muito longo | Muito curto
 
-		\item[Perspectivas:]% [<o>] o que pode ser melhorado? (ex: melhorias de
-		                    %       eficiência e aplicação em domínio diferente)
-	\end{description}%
+        \item A escrita é satisfatória?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Sim | Não
 
-	\section{Análise Crítica}%
-	% [<o>] Escreva perguntas/ideias/comentários que você tenha sobre o artigo.
-	% Por exemplo, trechos ou métodos que não são claros, pontos que deveriam
-	% ser mais (ou menos) detalhados e tópicos que deveriam ter sido abordados
-	% mas não foram (e como deveriam ter sido)
+        \item Qual a legibilidade do artigo pra um não especialista?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Fácil | Autocontido | Precisa de esclarecimentos | Ilegível
 
-	% [<o>] Identifique pelo menos 3 pontos fortes e 3 pontos fracos do artigo.
-	%
-	% [<o>] Justifique sua avaliação inicial (Excelente | Bom | Médio | Ruim).
+        \item Desconsiderando o aspecto técnico, qual a qualidade do conteúdo
+        apresentado?\\%
+        % [<o>] Escolha apenas uma das opções abaixo:
+        Excelente | Boa | Média | Ruim
+    \end{enumerate}%
 \end{document}%
